@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: budgeting
+  ai:
+    openai:
+      chat:
+        api-key: ${OPENAI_API_KEY}
+  jpa:
+    hibernate:
+#      ddl-auto: create
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    org:
+      springframework:
+        ai: DEBUG
+

@@ -1,0 +1,9 @@
+###
+POST http://localhost:8080/api/text-to-speech/openapi-sinthesize
+Content-Type: application/json
+
+{
+  "message": "Fomos ao Mac Donalds ontem e a compra de todos os lanches ficou no total de 350 reais e 20 centavos com a sobremesa inclusa"
+}
+
+<> 2026-11-02T152151.200.mp3

@@ -1,0 +1,16 @@
+###
+POST http://localhost:8080/api/transaction/ai/openapi-transcription?saveOnServer=false
+Content-Type: multipart/form-data; boundary=boundary;
+
+--boundary
+Content-Disposition: form-data; name="fileAudio"; filename="audio_cinema_pipoca.mp3"
+
+#< ./src/test/resources/audios/audio_cinema_pipoca.mp3
+#< ./src/test/resources/audios/audio_lavagem_carro.mp3
+< ./src/test/resources/audios/audio_padaria_paoleite.mp3
+
+--boundary
+
+<> 2026-11-07T163514.200.txt
+<> 2026-11-07T162842.200.txt
+<> 2026-11-07T162711.400.json

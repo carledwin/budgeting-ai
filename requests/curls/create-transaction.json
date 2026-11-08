@@ -1,0 +1,7 @@
+curl -X POST --location "http://localhost:8080/api/transaction" \
+-H "Content-Type: application/json" \
+-d '{
+"description": "Compra no mercado",
+"category": "GROCERIES",
+"amount": 350.67
+}'

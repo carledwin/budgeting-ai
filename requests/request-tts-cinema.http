@@ -1,0 +1,9 @@
+###
+POST http://localhost:8080/api/text-to-speech/openapi-sinthesize
+Content-Type: application/json
+
+{
+  "message": "Hoje fui no cinama com a galera e paguei 87 reais e 98 centavos em tudo"
+}
+
+<> 2026-11-02T152151.200.mp3

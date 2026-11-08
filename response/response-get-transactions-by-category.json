@@ -1,0 +1,19 @@
+GET http://localhost:8080/api/transaction/GROCERIES
+
+HTTP/1.1 200
+Content-Type: application/json
+Content-Length: 139
+Date: Sat, 07 Nov 2026 14:20:21 GMT
+
+[
+  {
+    "id": "TransactionId[uuid=9b071aea-fd0f-452b-afe5-aeccb40b040c]",
+    "category": "GROCERIES",
+    "description": "Compra no mercado",
+    "amount": 350.0
+  }
+]
+Response file saved.
+> 2026-11-07T112021.200.json
+
+Response code: 200; Time: 96ms (96 ms); Content length: 139 bytes (139 B)
